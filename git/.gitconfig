@@ -1,0 +1,6 @@
+[user]
+  name = Jian Yuan Lee
+  email = jianyuan@gmail.com
+
+[core]
+  excludesfile = ~/.gitignore
