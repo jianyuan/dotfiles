@@ -1,9 +1,14 @@
 [user]
   name = Jian Yuan Lee
   email = jianyuan@gmail.com
+  signingkey = 1D744BFE
 
 [core]
   excludesfile = ~/.gitignore
 
 [push]
   default = simple
+
+[commit]
+  # https://help.github.com/articles/signing-commits-using-gpg/
+  gpgsign = true

@@ -47,10 +47,14 @@ utils=(
   awscli
   git
   git-lfs
+  gnupg
+  gnupg2
+  gpg-agent
   httpie
   hub
   jq
   ngrok
+  pinentry-mac
   rename
   ssh-copy-id
   testssl

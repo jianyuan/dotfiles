@@ -15,6 +15,10 @@ ln -sfv "$DOTFILES_DIR/zsh/.zprofile" ~
 ln -sfv "$DOTFILES_DIR/zsh/.zphenv" ~
 ln -sfv "$DOTFILES_DIR/zsh/.zshrc" ~
 
+mkdir -p ~/.gnupg
+ln -sfv "$DOTFILES_DIR/gnupg/gpg-agent.conf" ~/.gnupg
+ln -sfv "$DOTFILES_DIR/gnupg/gpg.conf" ~/.gnupg
+
 # We're on macOS
 if [[ "$(uname)" == "Darwin" ]]; then
  . "$DOTFILES_DIR/install/brew.sh"
