@@ -15,9 +15,6 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 plugins=(
   git
-  python
-  virtualenv
-  virtualenvwrapper
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -27,3 +24,6 @@ source ~/.autoenv/activate.sh
 
 # virtualenvwrapper
 source /usr/local/bin/virtualenvwrapper_lazy.sh
+
+# Extras
+[[ -r $HOME/.extra ]] && source $HOME/.extra
