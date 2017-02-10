@@ -9,8 +9,6 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Symlinks
 ln -sfv "$DOTFILES_DIR/git/.gitignore" ~
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
-ln -sfv "$DOTFILES_DIR/zsh/.zlogin" ~
-ln -sfv "$DOTFILES_DIR/zsh/.zpreztorc" ~
 ln -sfv "$DOTFILES_DIR/zsh/.zprofile" ~
 ln -sfv "$DOTFILES_DIR/zsh/.zshenv" ~
 ln -sfv "$DOTFILES_DIR/zsh/.zshrc" ~

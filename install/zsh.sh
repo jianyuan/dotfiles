@@ -1,13 +1,9 @@
 #!/usr/bin/env bash
 
-export ZPREZTO_DIR
-ZPREZTO_DIR="$HOME/.zprezto"
-
-# Install or update Prezto
-if [[ -d $ZPREZTO_DIR ]]; then
-  pushd $ZPREZTO_DIR; git pull && git submodule update --init --recursive; popd
-else
-  git clone --recursive https://github.com/sorin-ionescu/prezto.git $ZPREZTO_DIR
+# Install oh-my-zsh
+OH_MY_ZSH_DIR="$HOME/.oh-my-zsh"
+if [[ ! -d $OH_MY_ZSH_DIR ]]; then
+  git clone git://github.com/robbyrussell/oh-my-zsh.git $OH_MY_ZSH_DIR
 fi
 
 # Directory-based Environments
