@@ -15,10 +15,11 @@ ln -sfv "$DOTFILES_DIR/zsh/.zprofile" ~
 ln -sfv "$DOTFILES_DIR/zsh/.zphenv" ~
 ln -sfv "$DOTFILES_DIR/zsh/.zshrc" ~
 
-. "$DOTFILES_DIR/install/zsh.sh"
-
 # We're on macOS
 if [[ "$(uname)" == "Darwin" ]]; then
  . "$DOTFILES_DIR/install/brew.sh"
  . "$DOTFILES_DIR/install/brew-cask.sh"
 fi
+
+. "$DOTFILES_DIR/install/pyenv.sh"
+. "$DOTFILES_DIR/install/zsh.sh"

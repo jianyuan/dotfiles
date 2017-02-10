@@ -41,26 +41,32 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
 # Install useful binaries.
-brew install ack
-brew install ag
-brew install awscli
-brew install git
-brew install git-lfs
-brew install httpie
-brew install hub
-brew install jq
-brew install ngrok
-brew install rename
-brew install ssh-copy-id
-brew install testssl
-brew install tmux
-brew install tree
-brew install youtube-dl
+utils=(
+  ack
+  ag
+  awscli
+  git
+  git-lfs
+  httpie
+  hub
+  jq
+  ngrok
+  rename
+  ssh-copy-id
+  testssl
+  tmux
+  tree
+  youtube-dl
+)
+brew install "${utils[@]}"
 
 # Install languages.
-brew install go
-brew install python
-brew install python3
+languages=(
+  go
+  python
+  python3
+)
+brew install "${languages[@]}"
 
 # Remove outdated versions from the cellar.
 brew cleanup

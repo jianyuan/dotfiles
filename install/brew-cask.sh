@@ -8,16 +8,19 @@ fi
 # Install Caskroom
 brew tap caskroom/cask
 
-# Daily
-brew cask install spectacle
-brew cask install flux
-brew cask install gpgtools
-
 # Dev
-brew cask install github-desktop
-brew cask install iterm2
-brew cask install vagrant
-brew cask install virtualbox
-
-# Internet
-brew cask install limechat
+dev=(
+  # Daily
+  spectacle
+  flux
+  gpgtools
+  # Dev
+  github-desktop
+  iterm2
+  meld
+  vagrant
+  virtualbox
+  # Internet
+  limechat
+)
+brew cask install "${dev[@]}"
