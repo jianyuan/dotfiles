@@ -9,3 +9,6 @@ fi
 
 # Directory-based Environments
 source ~/.autoenv/activate.sh
+
+# virtualenvwrapper
+source /usr/local/bin/virtualenvwrapper_lazy.sh

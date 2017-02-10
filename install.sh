@@ -12,7 +12,7 @@ ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/zsh/.zlogin" ~
 ln -sfv "$DOTFILES_DIR/zsh/.zpreztorc" ~
 ln -sfv "$DOTFILES_DIR/zsh/.zprofile" ~
-ln -sfv "$DOTFILES_DIR/zsh/.zphenv" ~
+ln -sfv "$DOTFILES_DIR/zsh/.zshenv" ~
 ln -sfv "$DOTFILES_DIR/zsh/.zshrc" ~
 
 mkdir -p ~/.gnupg
@@ -25,5 +25,5 @@ if [[ "$(uname)" == "Darwin" ]]; then
  . "$DOTFILES_DIR/install/brew-cask.sh"
 fi
 
-. "$DOTFILES_DIR/install/pyenv.sh"
+. "$DOTFILES_DIR/install/python.sh"
 . "$DOTFILES_DIR/install/zsh.sh"

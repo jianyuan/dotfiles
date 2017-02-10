@@ -16,3 +16,10 @@ if [[ -d $PYENV_VIRTUALENV_DIR ]]; then
 else
   git clone https://github.com/yyuu/pyenv-virtualenv.git $PYENV_VIRTUALENV_DIR
 fi
+
+# virtualenv and virtualenvwrapper
+pip install --upgrade virtualenv
+pip install --upgrade virtualenvwrapper
+
+# pipsi: pip script installer
+curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python
