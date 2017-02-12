@@ -7,6 +7,9 @@ if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "$HOME/.zprofile" ]]; then
   source "$HOME/.zprofile"
 fi
 
+# golang
+export GOPATH="$HOME/go"
+
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
