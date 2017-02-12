@@ -12,3 +12,7 @@
 [commit]
   # https://help.github.com/articles/signing-commits-using-gpg/
   gpgsign = true
+
+[gpg]
+  # https://github.com/isaacs/github/issues/675
+  program = /usr/local/bin/gpg
