@@ -60,7 +60,6 @@ utils=(
   testssl
   tmux
   tree
-  youtube-dl
 )
 brew install "${utils[@]}"
 

@@ -24,3 +24,6 @@ dev=(
   limechat
 )
 brew cask install "${dev[@]}"
+
+# Remove outdated versions from the cellar.
+brew cask cleanup
