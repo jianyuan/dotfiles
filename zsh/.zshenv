@@ -9,6 +9,7 @@ fi
 
 # golang
 export GOPATH="$HOME/go"
+export PATH="$GOPATH/bin:$PATH"
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
