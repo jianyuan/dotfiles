@@ -70,6 +70,10 @@ fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
 
+# Bash autocomplete support
+
+autoload -U +X bashcompinit && bashcompinit
+
 # https://gist.github.com/bmhatfield/cc21ec0a3a2df963bffa3c1f884b676b
 # In order for gpg to find gpg-agent, gpg-agent must be running, and there must be an env
 # variable pointing GPG to the gpg-agent socket. This little script, which must be sourced
