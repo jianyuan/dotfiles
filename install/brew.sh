@@ -53,6 +53,7 @@ utils=(
   httpie
   hub
   jq
+  mitmproxy
   ngrok
   pinentry-mac
   rename
