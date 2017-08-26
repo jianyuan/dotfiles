@@ -45,6 +45,7 @@ utils=(
   ack
   ag
   awscli
+  fzf
   git
   git-lfs
   gnupg

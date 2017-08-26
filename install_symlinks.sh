@@ -6,6 +6,7 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 [[ -d "$DOTFILES_DIR/.git" ]] && git --work-tree="$DOTFILES_DIR" --git-dir="$DOTFILES_DIR/.git" pull origin master
 
 # Symlinks
+ln -sfv "$DOTFILES_DIR/.bash_profile" "$HOME/.bash_profile"
 ln -sfv "$DOTFILES_DIR/git/.gitignore" "$HOME/.gitignore"
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" "$HOME/.gitconfig"
 ln -sfv "$DOTFILES_DIR/zsh/.zprofile" "$HOME/.zprofile"

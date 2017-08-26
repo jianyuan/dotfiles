@@ -1,7 +1,7 @@
 [user]
   name = Jian Yuan Lee
   email = jianyuan@gmail.com
-  signingkey = 1D744BFE
+	signingkey = EF68D65A
 
 [core]
   excludesfile = ~/.gitignore
