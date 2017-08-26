@@ -17,6 +17,7 @@ dev=(
   # Dev
   github-desktop
   iterm2
+  keybase
   meld
   vagrant
   virtualbox
