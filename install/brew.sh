@@ -54,7 +54,6 @@ utils=(
   hub
   jq
   mitmproxy
-  ngrok
   pinentry-mac
   rename
   ssh-copy-id
