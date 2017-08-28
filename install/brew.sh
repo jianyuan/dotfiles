@@ -59,6 +59,7 @@ utils=(
   rename
   ssh-copy-id
   testssl
+  tig
   tmux
   tree
 )
