@@ -17,5 +17,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+# fzf
+[[ -r $HOME/.fzf.zsh ]] && source $HOME/.fzf.zsh
+
 # Extras
 [[ -r $HOME/.extra ]] && source $HOME/.extra
