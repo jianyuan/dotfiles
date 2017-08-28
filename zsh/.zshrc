@@ -18,7 +18,10 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # fzf
-[[ -r $HOME/.fzf.zsh ]] && source $HOME/.fzf.zsh
+[ -r $HOME/.fzf.zsh ] && source $HOME/.fzf.zsh
+
+# thefuck
+[ -x "$(command -v thefuck)" ] && eval "$(thefuck --alias)"
 
 # Extras
-[[ -r $HOME/.extra ]] && source $HOME/.extra
+[ -r $HOME/.extra ] && source $HOME/.extra

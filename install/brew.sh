@@ -45,6 +45,7 @@ utils=(
   ack
   ag
   awscli
+  ccat
   fzf
   git
   git-lfs
@@ -54,20 +55,29 @@ utils=(
   httpie
   hub
   jq
+  m-cli
+  mas
   mitmproxy
+  pandoc
   pinentry-mac
   rename
+  ripgrep
   ssh-copy-id
   testssl
+  thefuck
   tig
+  tldr
   tmux
+  trash
   tree
+  youtube-dl
 )
 brew install "${utils[@]}"
 
 # Install languages.
 languages=(
   go
+  node
   python
   python3
 )
