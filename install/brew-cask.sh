@@ -11,17 +11,18 @@ brew tap caskroom/cask
 # Dev
 dev=(
   # Daily
-  spectacle
   flux
-  gpgtools
+  gpg-suite
+  spectacle
   # Dev
-  github-desktop
+  atom
   iterm2
   keybase
   meld
   vagrant
   virtualbox
   # Internet
+  google-chrome
   limechat
 )
 brew cask install "${dev[@]}"
