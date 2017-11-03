@@ -10,25 +10,31 @@
 	default = current
 
 [commit]
-	# https://help.github.com/articles/signing-commits-using-gpg/
 	gpgsign = true
 
 [gpg]
-	# https://github.com/isaacs/github/issues/675
-	program = /usr/local/bin/gpg
+	program = /usr/local/MacGPG2/bin/gpg2
 
 [diff]
 	tool = meld
+
 [difftool]
 	prompt = false
+
 [difftool "meld"]
 	trustExitCode = true
 	cmd = open -W -a Meld --args \"$LOCAL\" \"$PWD/$REMOTE\"
+
 [merge]
 	tool = meld
+
 [mergetool]
 	prompt = false
 	keepBackup = false
+
 [mergetool "meld"]
 	trustExitCode = true
 	cmd = open -W -a Meld --args --auto-merge \"$PWD/$LOCAL\" \"$PWD/$BASE\" \"$PWD/$REMOTE\" --output=\"$PWD/$MERGED\"
+
+[credential]
+	helper = osxkeychain
