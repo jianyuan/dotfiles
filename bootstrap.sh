@@ -8,7 +8,7 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # We're on macOS
 if [[ "$(uname)" == "Darwin" ]]; then
   "$DOTFILES_DIR/install/brew.sh"
- "$DOTFILES_DIR/install/brew-cask.sh"
+  "$DOTFILES_DIR/install/brew-cask.sh"
 fi
 
 "$DOTFILES_DIR/install/python.sh"

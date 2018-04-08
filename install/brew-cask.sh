@@ -22,6 +22,7 @@ dev=(
   virtualbox
   visual-studio-code
   # Internet
+  firefox
   google-chrome
   limechat
 )
