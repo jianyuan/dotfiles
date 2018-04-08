@@ -46,6 +46,7 @@ utils=(
   ag
   awscli
   ccat
+  diff-so-fancy
   fzf
   git
   git-lfs
