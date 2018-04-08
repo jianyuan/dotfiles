@@ -11,7 +11,7 @@ brew tap caskroom/cask
 # Dev
 dev=(
   # Daily
-  flux
+  1password
   gpg-suite
   spectacle
   # Dev
@@ -21,6 +21,7 @@ dev=(
   meld
   vagrant
   virtualbox
+  visual-studio-code
   # Internet
   google-chrome
   limechat
