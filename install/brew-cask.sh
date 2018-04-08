@@ -13,7 +13,6 @@ dev=(
   # Daily
   1password
   gpg-suite
-  spectacle
   # Dev
   atom
   iterm2
