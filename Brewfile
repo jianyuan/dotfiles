@@ -35,6 +35,7 @@ brew "go"
 # Other languages
 brew "node"
 brew "ruby"
+cask "java"
 
 # Internet
 cask "1password"
@@ -55,7 +56,10 @@ cask "visual-studio"
 
 # Fonts
 cask "font-fantasque-sans-mono"
+cask "font-fira-code"
+cask "font-hack"
 cask "font-inconsolata"
+cask "font-input"
 cask "font-mononoki"
 
 # Desktop essentials
