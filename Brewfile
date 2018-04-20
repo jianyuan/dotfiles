@@ -53,6 +53,7 @@ cask "java"
 
 # Internet
 cask "1password"
+cask "authy"
 cask "firefox"
 cask "google-chrome"
 cask "limechat"
@@ -78,6 +79,8 @@ cask "font-input"
 cask "font-mononoki"
 
 # Desktop essentials
+cask "appcleaner"
+cask "calibre"
 cask "gpg-suite"
 cask "keybase"
 cask "vlc"
