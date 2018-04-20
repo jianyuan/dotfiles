@@ -1,20 +1,33 @@
 tap "caskroom/cask"
 tap "caskroom/fonts"
-brew "mas"
 
-# Essentials
+# GNU utils
+brew "coreutils"
+brew "moreutils"
+brew "findutils"
+brew "gnu-sed", args: ["with-default-names"]
+
+# zsh
+brew "zsh"
+
+# Essential utils
 brew "ack"
+brew "ag"
 brew "ccat"
 brew "diff-so-fancy"
 brew "fzf"
+brew "git-lfs"
 brew "git"
 brew "htop"
 brew "jq"
 brew "thefuck"
 brew "tig"
-brew "trash"
 brew "vim", args: ["with-override-system-vi"]
-brew "zsh"
+
+# macOS utils
+brew "m-cli"
+brew "mas"
+brew "trash"
 
 # Services
 brew "awscli"
@@ -35,6 +48,7 @@ brew "go"
 # Other languages
 brew "node"
 brew "ruby"
+brew "typescript"
 cask "java"
 
 # Internet
@@ -46,6 +60,7 @@ cask "slack"
 
 # Dev
 cask "atom"
+cask "gas-mask"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "meld"
