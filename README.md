@@ -1,5 +1,14 @@
 # dotfiles
-My dotfiles
+My dotfiles.
+
+    $ git clone https://github.com/jianyuan/dotfiles.git ~/dotfiles
+    $ cd ~/dotfiles
+    $ ./install
+
+## Making local customisations
+Customise these programs by editing these files:
+
+- `zsh`: `~/.zshrc_local`
 
 ## Inspirations
 - https://github.com/anishathalye/dotfiles

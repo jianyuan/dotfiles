@@ -98,3 +98,6 @@ export LANG=en_US.UTF-8
 
 # thefuck
 [ -x "$(command -v thefuck)" ] && eval $(thefuck --alias)
+
+# Local customisations
+[ -r $HOME/.zshrc_local ] && source $HOME/.zshrc_local
