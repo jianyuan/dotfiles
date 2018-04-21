@@ -1,9 +1,13 @@
 # dotfiles
 My dotfiles.
 
+## Setup
+
     $ git clone https://github.com/jianyuan/dotfiles.git ~/dotfiles
     $ cd ~/dotfiles
     $ ./install
+
+The install script is idempotent and safe to run multiple times.
 
 ## Making local customisations
 Customise these programs by editing these files:
