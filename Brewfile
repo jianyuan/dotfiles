@@ -54,14 +54,15 @@ cask "java"
 # Internet
 cask "1password"
 cask "authy"
+cask "discord"
 cask "firefox"
 cask "google-chrome"
-cask "limechat"
 cask "slack"
 
 # Dev
 cask "atom"
 cask "gas-mask"
+cask "github"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "meld"
