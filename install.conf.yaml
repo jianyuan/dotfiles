@@ -5,8 +5,11 @@
 - clean: ['~']
 
 - link:
-    ~/.Brewfile: Brewfile
+    ~/.Brewfile:
+    ~/.zshenv:
+    ~/.zshrc:
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
-  - [brew bundle --global, Installing homebrew packages]
+  - git submodule update --init --recursive
+  - brew bundle --global
+  - sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

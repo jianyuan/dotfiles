@@ -2,6 +2,7 @@
 My dotfiles
 
 ## Inspirations
+- https://github.com/anishathalye/dotfiles
 - https://github.com/mathiasbynens/dotfiles
 - https://github.com/nicksp/dotfiles
 - https://github.com/paulirish/dotfiles
