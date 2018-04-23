@@ -53,7 +53,6 @@ cask "java"
 
 # Internet
 cask "1password"
-cask "authy"
 cask "discord"
 cask "firefox"
 cask "google-chrome"
