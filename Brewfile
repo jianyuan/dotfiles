@@ -13,6 +13,7 @@ brew "zsh"
 # Essential utils
 brew "ack"
 brew "ag"
+brew "autoenv"
 brew "ccat"
 brew "diff-so-fancy"
 brew "fzf"
