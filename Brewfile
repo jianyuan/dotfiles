@@ -47,6 +47,7 @@ brew "python@2"
 brew "go"
 
 # Other languages
+brew "elixir"
 brew "node"
 brew "ruby"
 brew "typescript"
