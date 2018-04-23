@@ -3,6 +3,9 @@
 	email = jianyuan@gmail.com
 	signingkey = EF68D65A
 
+[alias]
+	exec = "!exec "
+
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
