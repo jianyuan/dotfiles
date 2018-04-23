@@ -10,6 +10,7 @@
     ~/.gitignore_global:
     ~/.zshenv:
     ~/.zshrc:
+    ~/Library/Application Support/Code/User/settings.json: code_settings.json
 
 - shell:
   - git submodule update --init --recursive
