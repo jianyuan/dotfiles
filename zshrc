@@ -60,6 +60,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  virtualenvwrapper
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -93,6 +94,9 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# autosuggestions
+[ -f $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh ] && source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # fzf
 [ -f $HOME/.fzf.zsh ] && source $HOME/.fzf.zsh
 
@@ -100,4 +104,4 @@ export LANG=en_US.UTF-8
 [ -x "$(command -v thefuck)" ] && eval $(thefuck --alias)
 
 # Local customisations
-[ -r $HOME/.zshrc_local ] && source $HOME/.zshrc_local
+[ -f $HOME/.zshrc_local ] && source $HOME/.zshrc_local

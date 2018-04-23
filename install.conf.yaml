@@ -15,3 +15,5 @@
   - git submodule update --init --recursive
   - brew bundle --global
   - sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  - git -C ~/.zsh/zsh-autosuggestions pull || git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+  - pip2 install -U -r requirements.py2.txt
