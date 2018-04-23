@@ -49,6 +49,7 @@ brew "go"
 brew "node"
 brew "ruby"
 brew "typescript"
+cask "haskell-platform"
 cask "java"
 
 # Internet
