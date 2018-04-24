@@ -6,6 +6,7 @@
 
 - link:
     ~/.Brewfile:
+    ~/.gemrc:
     ~/.gitconfig:
     ~/.gitignore_global:
     ~/.zshenv:
