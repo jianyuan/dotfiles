@@ -64,6 +64,7 @@ cask "slack"
 
 # Dev
 brew "hub"
+brew "pgcli"
 cask "atom"
 cask "docker"
 cask "gas-mask"
