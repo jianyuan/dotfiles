@@ -52,6 +52,9 @@ brew "typescript"
 cask "haskell-platform"
 cask "java"
 
+# Services
+brew "postgresql"
+
 # Internet
 cask "1password"
 cask "discord"
