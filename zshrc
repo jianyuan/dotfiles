@@ -63,6 +63,7 @@ plugins=(
   autojump
   aws
   git
+  rbenv
   virtualenvwrapper
 )
 

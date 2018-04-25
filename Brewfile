@@ -52,8 +52,14 @@ brew "typescript"
 cask "haskell-platform"
 cask "java"
 
-# Services
+# Language tools
+brew "rbenv"
+
+# Databases
 brew "postgresql"
+
+# Database tools
+brew "pgcli"
 
 # Internet
 cask "1password"
@@ -64,7 +70,6 @@ cask "slack"
 
 # Dev
 brew "hub"
-brew "pgcli"
 cask "atom"
 cask "docker"
 cask "gas-mask"
