@@ -35,6 +35,7 @@ brew "trash"
 brew "awscli"
 brew "packer"
 brew "terraform"
+brew "vault"
 
 # HTTP utils
 brew "httpie"
