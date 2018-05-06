@@ -54,6 +54,7 @@ cask "haskell-platform"
 cask "java"
 
 # Language tools
+brew "dep"
 brew "rbenv"
 
 # Databases
