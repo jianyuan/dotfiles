@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+set -e
+set -u
+set -o pipefail
+
+git submodule update --init --recursive
+./install_dotfiles
+brew bundle --global
+sh <(curl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -L)
+git -C ~/.zsh/zsh-autosuggestions pull || git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+pip2 install -U -r requirements.py2.txt
+sh <(curl https://j.mp/spf13-vim3 -L)

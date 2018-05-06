@@ -1,0 +1,43 @@
+[user]
+	name = Jian Yuan Lee
+	email = jianyuan@gmail.com
+	signingkey = EF68D65A
+
+[alias]
+	exec = "!exec "
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[core]
+	excludesfile = ~/.gitignore_global
+	pager = diff-so-fancy | less --tabs=4 -RFX
+
+[push]
+	default = current
+
+[credential]
+	helper = osxkeychain
+
+[color]
+	ui = true
+
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+
+[color "diff"]
+	meta = yellow
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+
+[include]
+	path = ~/.gitconfig_local

@@ -13,6 +13,8 @@ brew "zsh"
 # Essential utils
 brew "ack"
 brew "ag"
+brew "autoenv"
+brew "autojump"
 brew "ccat"
 brew "diff-so-fancy"
 brew "fzf"
@@ -29,38 +31,49 @@ brew "m-cli"
 brew "mas"
 brew "trash"
 
-# Services
+# DevOps
 brew "awscli"
-brew "hub"
+brew "packer"
+brew "terraform"
+brew "vault"
 
 # HTTP utils
 brew "httpie"
 brew "wget"
 brew "youtube-dl"
 
-# Python
+# Languages
+brew "elixir"
+brew "go"
+brew "node"
 brew "python"
 brew "python@2"
-
-# Go
-brew "go"
-
-# Other languages
-brew "node"
 brew "ruby"
 brew "typescript"
+cask "haskell-platform"
 cask "java"
+
+# Language tools
+brew "dep"
+brew "rbenv"
+
+# Databases
+brew "postgresql"
+
+# Database tools
+brew "pgcli"
 
 # Internet
 cask "1password"
-cask "authy"
 cask "discord"
 cask "firefox"
 cask "google-chrome"
 cask "slack"
 
 # Dev
+brew "hub"
 cask "atom"
+cask "docker"
 cask "gas-mask"
 cask "github"
 cask "iterm2"

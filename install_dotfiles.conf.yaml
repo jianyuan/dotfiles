@@ -1,0 +1,14 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.Brewfile:
+    ~/.gemrc:
+    ~/.gitconfig:
+    ~/.gitignore_global:
+    ~/.zshenv:
+    ~/.zshrc:
+    ~/Library/Application Support/Code/User/settings.json: code_settings.json
