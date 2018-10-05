@@ -1,7 +1,10 @@
 [user]
 	name = Jian Yuan Lee
 	email = jianyuan@gmail.com
-	signingkey = EF68D65A
+	signingkey = 28C93998EF68D65A
+
+[commit]
+	gpgsign = true
 
 [alias]
 	exec = "!exec "
