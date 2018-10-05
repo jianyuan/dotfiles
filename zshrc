@@ -107,5 +107,8 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # thefuck
 [ -x "$(command -v thefuck)" ] && eval $(thefuck --alias)
 
+# pyenv
+[ command -v pyenv 1>/dev/null 2>&1 ] && eval "$(pyenv init -)"
+
 # Local customisations
 [ -f $HOME/.zshrc_local ] && source $HOME/.zshrc_local
