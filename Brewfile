@@ -58,6 +58,7 @@ cask "java"
 
 # Language tools
 brew "dep"
+brew "pyenv"
 brew "rbenv"
 
 # Databases
