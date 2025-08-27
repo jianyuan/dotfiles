@@ -1,0 +1,11 @@
+- defaults:
+    link:
+      relink: true
+
+- link:
+    ~/Brewfile: Brewfile
+
+- clean: ['~']
+
+- create:
+    - ~/code
