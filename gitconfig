@@ -1,0 +1,17 @@
+[user]
+	name = Jian Yuan Lee
+	email = jianyuan@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+[commit]
+	gpgsign = true
+[pull]
+	rebase = true
+[push]
+	autoSetupRemote = true
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential

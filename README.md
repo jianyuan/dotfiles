@@ -12,5 +12,5 @@ A collection of configuration files and scripts for setting up my personalized d
 2. Run the install script:
    ```sh
    cd ~/dotfiles
-   ./install.sh
+   ./install
    ```

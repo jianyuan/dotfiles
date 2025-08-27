@@ -1,1 +1,2 @@
+brew "gh"
 brew "git"

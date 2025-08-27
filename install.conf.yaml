@@ -1,11 +1,17 @@
 - defaults:
     link:
+      create: true
       relink: true
 
 - link:
-    ~/Brewfile: Brewfile
+    ~/.gitconfig:
+    ~/.gitignore_global:
 
 - clean: ['~']
 
 - create:
     - ~/code
+
+- shell:
+  - command: brew bundle install
+    stdout: true
