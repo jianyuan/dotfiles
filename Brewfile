@@ -1,6 +1,7 @@
 # Development
 brew "direnv"
 brew "fzf"
+brew "mise"
 brew "neovim"
 brew "ripgrep"
 brew "sops"
