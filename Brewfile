@@ -1,10 +1,13 @@
 # Development
 brew "direnv"
+brew "fd"
 brew "fzf"
 brew "mise"
 brew "neovim"
 brew "ripgrep"
 brew "sops"
+brew "tmux"
+brew "zoxide"
 brew "zsh"
 cask "bitwarden"
 cask "cursor"
