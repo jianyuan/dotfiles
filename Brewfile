@@ -2,6 +2,7 @@
 brew "direnv"
 brew "fd"
 brew "fzf"
+brew "go-task"
 brew "mise"
 brew "neovim"
 brew "ripgrep"
