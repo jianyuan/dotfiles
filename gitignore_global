@@ -42,3 +42,7 @@ desktop.ini
 *.swp
 *~
 .nfs*
+
+# env
+.env
+.envrc
