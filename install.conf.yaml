@@ -6,12 +6,13 @@
 - link:
     ~/.gitconfig:
     ~/.gitignore_global:
+    ~/.config/direnv: direnv
 
-- clean: ['~']
+- clean: ["~"]
 
 - create:
     - ~/code
 
 - shell:
-  - command: brew bundle install
-    stdout: true
+    - command: brew bundle install
+      stdout: true
