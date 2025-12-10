@@ -11,8 +11,9 @@ brew "sops"
 brew "tmux"
 brew "zoxide"
 brew "zsh"
+cask "antigravity"
 cask "bitwarden"
-cask "cursor"
+cask "bruno"
 cask "dbeaver-community"
 cask "nordvpn"
 cask "raycast"
@@ -43,7 +44,11 @@ cask "font-cascadia-mono-nf"
 cask "font-cascadia-mono"
 
 # Media
+brew "yt-dlp"
+cask "iina"
+cask "qbittorrent"
 cask "sonos"
+cask "yacreader"
 
 # Messaging
 cask "discord"
