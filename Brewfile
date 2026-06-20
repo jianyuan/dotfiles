@@ -25,12 +25,6 @@ brew "git-town"
 brew "git"
 brew "tig"
 
-# Development - JavaScript
-brew "node"
-
-# Development - Python
-brew "uv"
-
 # Virtualization
 brew "colima"
 brew "docker-buildx"
