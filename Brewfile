@@ -15,7 +15,6 @@ cask "antigravity"
 cask "bitwarden"
 cask "bruno"
 cask "dbeaver-community"
-cask "nordvpn"
 cask "raycast"
 cask "tailscale-app"
 
