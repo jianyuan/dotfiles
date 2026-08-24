@@ -26,6 +26,7 @@ brew "tig"
 
 # Virtualization
 brew "colima"
+brew "container"
 brew "docker-buildx"
 brew "docker"
 cask "utm"
