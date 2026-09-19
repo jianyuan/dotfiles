@@ -14,6 +14,8 @@ cask "antigravity-ide"
 cask "bitwarden"
 cask "bruno"
 cask "dbeaver-community"
+cask "lm-studio"
+cask "orchard"
 cask "raycast"
 cask "tailscale-app"
 
