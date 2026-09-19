@@ -2,7 +2,6 @@
 brew "direnv"
 brew "fd"
 brew "fzf"
-brew "go-task"
 brew "graphviz"
 brew "mise"
 brew "neovim"
