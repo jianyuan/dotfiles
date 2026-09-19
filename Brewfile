@@ -41,7 +41,6 @@ brew "yt-dlp"
 cask "iina"
 cask "qbittorrent"
 cask "sonos"
-cask "yacreader"
 
 # Messaging
 cask "discord"
