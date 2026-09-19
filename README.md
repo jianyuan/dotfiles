@@ -1,6 +1,7 @@
 # dotfiles
 
-A collection of configuration files and scripts for setting up my personalized development environment.
+A collection of configuration files and scripts for setting up my personalized
+development environment.
 
 ## Instructions
 
@@ -12,5 +13,10 @@ A collection of configuration files and scripts for setting up my personalized d
 2. Run the install script:
    ```sh
    cd ~/dotfiles
-   ./install
+   make install
+   ```
+
+3. Optional: Update dotbot submodule:
+   ```sh
+   make update-dotbot
    ```
