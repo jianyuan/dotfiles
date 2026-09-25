@@ -1,0 +1,3 @@
+keybind = shift+enter=text:\x1b\r
+keybind = shift+tab=text:\x1b[Z
+keybind = alt+backspace=text:\x1b\x7f
