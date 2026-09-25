@@ -10,14 +10,17 @@ brew "sops"
 brew "tmux"
 brew "zoxide"
 brew "zsh"
-cask "antigravity-ide"
 cask "bitwarden"
 cask "bruno"
 cask "dbeaver-community"
-cask "lm-studio"
-cask "orchard"
 cask "raycast"
 cask "tailscale-app"
+
+# Development - AI
+cask "antigravity-ide"
+cask "claude-code"
+cask "claude"
+cask "lm-studio"
 
 # Development - Git
 brew "gh"
@@ -30,6 +33,7 @@ brew "colima"
 brew "container"
 brew "docker-buildx"
 brew "docker"
+cask "orchard"
 cask "utm"
 
 # Fonts
