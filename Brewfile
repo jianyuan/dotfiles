@@ -15,6 +15,7 @@ cask "bruno"
 cask "dbeaver-community"
 cask "raycast"
 cask "tailscale-app"
+cask "vorssaint"
 
 # Development - AI
 cask "antigravity-ide"
