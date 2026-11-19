@@ -1,4 +1,5 @@
 # Development
+brew "bitwarden-cli"
 brew "direnv"
 brew "fd"
 brew "fzf"
