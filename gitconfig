@@ -1,19 +1,22 @@
 [user]
 	name = Jian Yuan Lee
 	email = jianyuan@gmail.com
+	signingkey = 28C93998EF68D65A
 [core]
 	excludesfile = ~/.gitignore_global
 [commit]
 	gpgsign = true
+[tag]
+	gpgSign = true
 [pull]
 	rebase = true
 [push]
 	autoSetupRemote = true
 [credential "https://github.com"]
-	helper = 
+	helper =
 	helper = !/opt/homebrew/bin/gh auth git-credential
 [credential "https://gist.github.com"]
-	helper = 
+	helper =
 	helper = !/opt/homebrew/bin/gh auth git-credential
 [init]
 	defaultBranch = main
